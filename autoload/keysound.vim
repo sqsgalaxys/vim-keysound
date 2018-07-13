@@ -52,7 +52,7 @@ if g:keysound_py_version == 0
 		let s:py_cmd = 'py'
 		let s:py_eval = 'pyeval'
 		let s:py_version = 2
-	elseif has('python3')
+	elseif has('python3/dyn')
 		let s:py_cmd = 'py3'
 		let s:py_eval = 'py3eval'
 		let s:py_version = 3
